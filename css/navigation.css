@@ -1,0 +1,58 @@
+/* CSS Document */
+/*====================
+======Header CSS=====
+======================*/
+
+#navigation .navbar {
+  background: hsla(359,81%,48%,1.00);
+  border-radius: 0px;
+  border-bottom: #D0C7C7 solid;
+  box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 3px;
+  padding-bottom: 8px;
+}
+
+#navigation .navbar-toggle{
+  margin-top: 20px;
+  background-color: #333;
+}
+
+#navigation .navbar-brand h1{
+  padding: 0;
+  margin: 0;
+}
+
+#navigation .navbar-nav.navbar-right li {
+	padding: 0 1px;
+}
+
+#navigation .navbar-nav.navbar-right {
+	margin-top:20px
+}
+
+#navigation .navbar-nav.navbar-right li a {
+	color: hsla(0,30%,95%,1.00);
+	font-family: 'Roboto',sans-serif;
+	font-size: 15px;
+	padding: 0;
+	text-transform: uppercase;
+	
+	transition: all .9s ease 0s;
+	padding: 10px 15px;
+}
+
+#navigation .navbar-inverse .navbar-nav  .active  a,  
+
+
+#navigation .navbar-nav.navbar-right li a:hover {
+	color: #fff; /* text color*/
+	background-color: #3B91C1;
+}
+#navigation .dropdown-menu {
+	background-color:#0A1251;
+	margin-top:10px;
+
+	
+	
+}
+
+
